@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: com.bookstore.dao.BookDAOTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 12, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec <<< FAILURE!
+com.bookstore.dao.BookDAOTest.testFindByTitleNotExist()  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.bookstore.dao.BookDAOTest.testFindByTitleNotExist(BookDAOTest.java:156)
+
+com.bookstore.dao.BookDAOTest.testDeleteBookFail()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.bookstore.dao.BookDAOTest.testDeleteBookFail(BookDAOTest.java:123)
+
+com.bookstore.dao.BookDAOTest.testGetBookSuccess()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.bookstore.dao.BookDAOTest.testGetBookSuccess(BookDAOTest.java:144)
+
+com.bookstore.dao.BookDAOTest.testFindByTitleExist()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.bookstore.dao.BookDAOTest.testFindByTitleExist(BookDAOTest.java:162)
+
+com.bookstore.dao.BookDAOTest.testDeleteBookSuccess()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.bookstore.dao.BookDAOTest.testDeleteBookSuccess(BookDAOTest.java:130)
+
+com.bookstore.dao.BookDAOTest.testfindBookByCategory()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.bookstore.dao.BookDAOTest.testfindBookByCategory(BookDAOTest.java:174)
+
+com.bookstore.dao.BookDAOTest.testCreatedBook()  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.bookstore.dao.BookDAOTest.testCreatedBook(BookDAOTest.java:73)
+
+com.bookstore.dao.BookDAOTest.testListNewBooks()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.bookstore.dao.BookDAOTest.testListNewBooks(BookDAOTest.java:181)
+
+com.bookstore.dao.BookDAOTest.testUpdatedBook()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.bookstore.dao.BookDAOTest.testUpdatedBook(BookDAOTest.java:114)
+
+com.bookstore.dao.BookDAOTest.testCount()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.bookstore.dao.BookDAOTest.testCount(BookDAOTest.java:168)
+
+com.bookstore.dao.BookDAOTest.testListAll()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.bookstore.dao.BookDAOTest.testListAll(BookDAOTest.java:150)
+
+com.bookstore.dao.BookDAOTest.testGetBookFail()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.bookstore.dao.BookDAOTest.testGetBookFail(BookDAOTest.java:137)
+

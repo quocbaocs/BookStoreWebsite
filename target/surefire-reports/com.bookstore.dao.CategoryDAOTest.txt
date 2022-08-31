@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: com.bookstore.dao.CategoryDAOTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+com.bookstore.dao.CategoryDAOTest.testUpdateCategory()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.bookstore.dao.CategoryDAOTest.testUpdateCategory(CategoryDAOTest.java:43)
+
+com.bookstore.dao.CategoryDAOTest.testCountCategory()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.bookstore.dao.CategoryDAOTest.testCountCategory(CategoryDAOTest.java:74)
+
+com.bookstore.dao.CategoryDAOTest.testDeleteCategory()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.bookstore.dao.CategoryDAOTest.testDeleteCategory(CategoryDAOTest.java:60)
+
+com.bookstore.dao.CategoryDAOTest.testCreateCategory()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.bookstore.dao.CategoryDAOTest.testCreateCategory(CategoryDAOTest.java:34)
+
+com.bookstore.dao.CategoryDAOTest.testGet()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.bookstore.dao.CategoryDAOTest.testGet(CategoryDAOTest.java:52)
+
+com.bookstore.dao.CategoryDAOTest.testFindByName()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.bookstore.dao.CategoryDAOTest.testFindByName(CategoryDAOTest.java:80)
+
+com.bookstore.dao.CategoryDAOTest.testListAll()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.bookstore.dao.CategoryDAOTest.testListAll(CategoryDAOTest.java:67)
+

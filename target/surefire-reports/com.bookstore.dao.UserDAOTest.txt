@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: com.bookstore.dao.UserDAOTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 10, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+com.bookstore.dao.UserDAOTest.testDeleteNonExistUsers()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.bookstore.dao.UserDAOTest.testDeleteNonExistUsers(UserDAOTest.java:80)
+
+com.bookstore.dao.UserDAOTest.testGetUsersFound()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.bookstore.dao.UserDAOTest.testGetUsersFound(UserDAOTest.java:88)
+
+com.bookstore.dao.UserDAOTest.testCheckLoginFailed()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.bookstore.dao.UserDAOTest.testCheckLoginFailed(UserDAOTest.java:118)
+
+com.bookstore.dao.UserDAOTest.testCheckLoginSuccess()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.bookstore.dao.UserDAOTest.testCheckLoginSuccess(UserDAOTest.java:109)
+
+com.bookstore.dao.UserDAOTest.testCreateUsers()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.bookstore.dao.UserDAOTest.testCreateUsers(UserDAOTest.java:43)
+
+com.bookstore.dao.UserDAOTest.testFindByEmail()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.bookstore.dao.UserDAOTest.testFindByEmail(UserDAOTest.java:101)
+
+com.bookstore.dao.UserDAOTest.testUpdateUsers()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.bookstore.dao.UserDAOTest.testUpdateUsers(UserDAOTest.java:62)
+
+com.bookstore.dao.UserDAOTest.testDeleteUsers()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.bookstore.dao.UserDAOTest.testDeleteUsers(UserDAOTest.java:71)
+
+com.bookstore.dao.UserDAOTest.testListAll()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.bookstore.dao.UserDAOTest.testListAll(UserDAOTest.java:94)
+
+com.bookstore.dao.UserDAOTest.testCreateUsersFieldsNotSet()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.bookstore.dao.UserDAOTest.testCreateUsersFieldsNotSet(UserDAOTest.java:51)
+
